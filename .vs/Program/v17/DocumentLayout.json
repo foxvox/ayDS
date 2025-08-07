@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\ayPro\\prime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\prime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\ayPro\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,19 +19,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "prime.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\ayPro\\prime.cpp",
-              "RelativeDocumentMoniker": "ayPro\\prime.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\ayPro\\prime.cpp",
-              "RelativeToolTip": "ayPro\\prime.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-06T05:40:50.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\ayPro\\source.cpp",
               "RelativeDocumentMoniker": "ayPro\\source.cpp",

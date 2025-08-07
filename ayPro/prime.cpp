@@ -14,8 +14,8 @@ static void sieve(int n)
         if (isPrime[p])
         {
             // p번째가 소수인 경우 p의 배수들은 모두 소수가 아닌 처리를 함 
-            // p * 1, p * 2, . . . , p * (p - 1)은 모두 소수가 아니라고 이미 앞에서 처리 됨 
-            for (int i = p * p; i <= n; i += p)
+            // p * 1, p * 2, . . . , p * (p - 1)은 모두 소수가 아니라고 이미 앞에서 처리 됨  
+            for (int i = p * p; i <= n; i += p) 
             {
                 isPrime[i] = false; 
             }
@@ -23,15 +23,15 @@ static void sieve(int n)
     }
 
     // Print all prime numbers 
-    cout << "Prime numbers up to " << n << ": ";
-    for (int i = 2; i <= n; i++)
+    cout << "Prime numbers up to " << n << ": "; 
+    for (int i = 2; i <= n; i++) 
     {
         // 값이 true인 경우의 index가 소수가 된다. 
         if (isPrime[i])
         {
             cout << i << " "; 
-        }
-    }
+        } 
+    } 
     cout << endl; 
 }
 
