@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

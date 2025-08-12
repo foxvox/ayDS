@@ -3,9 +3,9 @@ using namespace std;
 
 static void merge(int arr[], int left, int mid, int right) 
 {
-    // n1 왼쪽 부분 배열의 크기 : 미드까지 
+    // n1 왼쪽 부분 배열의 크기 : left 부터 미드까지 요소의 개수 
     int n1 = mid - left + 1; 
-    // n2 오른쪽 부분 배열의 크기 : 미드 + 1 부터 끝까지 
+    // n2 오른쪽 부분 배열의 크기 : 미드 + 1 부터 끝까지 요소의 개수 
     int n2 = right - mid;
 
     // 동적 배열 할당
@@ -39,8 +39,8 @@ static void merge(int arr[], int left, int mid, int right)
         arr[k++] = R[j++]; 
 
     // 메모리 해제
-    delete[] L;
-    delete[] R;
+    delete[] L; 
+    delete[] R; 
 }
 
 static void mergeSort(int arr[], int left, int right)  
@@ -63,11 +63,11 @@ static void printArray(int arr[], int size)
 
 int main() 
 {
-    int arr[] = { 12, 11, 13, 5, 6, 7, 8, 4, 3, 9 };
+    int arr[] = { 12, 11, 13, 5, 6, 7, 8, 4, 3, 9, 15, 18, 17, 10 };
     int arrSize = sizeof(arr) / sizeof(arr[0]);
 
-    cout << "정렬 전 배열: ";
-    printArray(arr, arrSize);
+    cout << "정렬 전 배열: "; 
+    printArray(arr, arrSize); 
 
     mergeSort(arr, 0, arrSize - 1); 
 
