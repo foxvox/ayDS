@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\ayDS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\fibo2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\fibo2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\dfs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\merge_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ayPro\\merge_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\quick_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ayPro\\quick_sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "fibo2.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\fibo2.cpp",
-              "RelativeDocumentMoniker": "ayPro\\fibo2.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\fibo2.cpp",
-              "RelativeToolTip": "ayPro\\fibo2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "dfs.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\dfs.cpp",
+              "RelativeDocumentMoniker": "ayPro\\dfs.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\dfs.cpp",
+              "RelativeToolTip": "ayPro\\dfs.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-12T06:42:20.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "merge_sort.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\merge_sort.cpp",
-              "RelativeDocumentMoniker": "ayPro\\merge_sort.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\merge_sort.cpp",
-              "RelativeToolTip": "ayPro\\merge_sort.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-12T06:22:56.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "quick_sort.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\quick_sort.cpp",
-              "RelativeDocumentMoniker": "ayPro\\quick_sort.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\quick_sort.cpp",
-              "RelativeToolTip": "ayPro\\quick_sort.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-12T06:22:01.497Z",
+              "WhenOpened": "2025-08-13T05:49:20.446Z",
               "EditorCaption": ""
             },
             {

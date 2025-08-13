@@ -22,7 +22,7 @@ static int fibo(int n, int* _pArr)
 int main()
 {
     int n = 40;
-    int* pArr = new int[n];
+    int* pArr = new int[ n + 1 ];
 
     int result = fibo(n, pArr);
 
@@ -32,6 +32,8 @@ int main()
     {
         cout << "pArr[" << i << "]: " << pArr[i] << endl;
     }
+
+    delete[] pArr; 
 
     return 0;
 }
