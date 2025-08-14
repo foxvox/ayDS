@@ -24,7 +24,7 @@ public:
         adjList[u].push_back(v);
         if (undirected)
         {
-            adjList[v].push_back(u);
+            adjList[v].push_back(u); 
         }
     }
 
@@ -34,7 +34,7 @@ public:
         visited[node] = true;
         cout << "Visited: " << node << endl; 
 
-        // 1->2로 진행 후 
+        // 1->2로 진행 후, adjList[node]는 각각의 배열을 의미한다. 예를 들어 adjList[1]에는 {2, 3} 이렇게 들어 있다. 
         for (int neighbor : adjList[node]) 
         { 
             // 2->4로 진행 and 4->8로 진행 => 진행 중에 방문했던 노드인 경우 skip 
@@ -53,7 +53,7 @@ public:
 
 int main() 
 {
-    Graph g(10);
+    Graph g(30);
 
     g.addEdge(1, 2);
     g.addEdge(1, 3);
