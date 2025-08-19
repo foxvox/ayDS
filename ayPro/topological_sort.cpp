@@ -3,7 +3,7 @@
 #include <queue>
 using namespace std;
 
-// DAG means Directed Acyclic Graph
+// DAG means Directed Acyclic Graph 방향성을 가진 비순환적인 그래프 
 
 class Graph
 {
