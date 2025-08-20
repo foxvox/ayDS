@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="disjoint_set.cpp" />
+    <ClCompile Include="mst.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -14,20 +14,20 @@ public:
     // 초기화: 각 노드는 자기 자신이 부모
     DisjointSet(int n)
     {
-        parent.resize(n);
+        parent.resize(n); 
         rank.resize(n, 0);
 
         for (int i = 0; i < n; ++i)
-        {
-            parent[i] = i;
+        { 
+            parent[i] = i; 
         }
     }
 
     // find: 경로 압축 적용 => 특정한 원소가 속한 집합이 어떤 집합인지 알려주는 함수 => 루트 값을 반환 
     int find(int x)
-    {
+    { 
         if (parent[x] != x)
-        {
+        { 
             // 루트 노드를 제외한 나머지 노드는 parent index와 그 값이 다르다. 
             parent[x] = find(parent[x]);    // 재귀적으로 부모를 찾아서 경로 압축 
         }

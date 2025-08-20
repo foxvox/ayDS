@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\ayDS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\disjoint_set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\disjoint_set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\mst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\mst.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,15 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "disjoint_set.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\disjoint_set.cpp",
-              "RelativeDocumentMoniker": "ayPro\\disjoint_set.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\disjoint_set.cpp",
-              "RelativeToolTip": "ayPro\\disjoint_set.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Title": "mst.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\mst.cpp",
+              "RelativeDocumentMoniker": "ayPro\\mst.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\mst.cpp",
+              "RelativeToolTip": "ayPro\\mst.cpp",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-19T06:29:19.785Z",
+              "WhenOpened": "2025-08-20T05:42:04.463Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
