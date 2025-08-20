@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mst.cpp" />
     <ClCompile Include="source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
