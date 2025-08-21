@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\ayDS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\mase_solving.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ayPro\\mase_solving.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7625D7FB-1CE1-4788-8A2F-F287049B20E6}|ayPro\\ayPro.vcxproj|solutionrelative:ayPro\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "mase_solving.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\mase_solving.cpp",
-              "RelativeDocumentMoniker": "ayPro\\mase_solving.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\mase_solving.cpp",
-              "RelativeToolTip": "ayPro\\mase_solving.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-20T19:02:03.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\source.cpp",
               "RelativeDocumentMoniker": "ayPro\\source.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\ayDS\\ayPro\\source.cpp",
               "RelativeToolTip": "ayPro\\source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwE4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-06T03:58:56.189Z",
+              "WhenOpened": "2025-08-21T04:16:34.087Z",
               "EditorCaption": ""
             }
           ]
