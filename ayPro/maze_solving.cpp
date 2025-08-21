@@ -28,8 +28,8 @@ vector<Vector2> path{};
 Vector2 directions[] =
 {
     Vector2(0,  1),  // 남 (down) 
-    Vector2(0, -1),  // 북 (up) 
-    Vector2(1,  0),  // 동 (right)          
+    Vector2(1,  0),  // 동 (right)
+    Vector2(0, -1),  // 북 (up)              
     Vector2(-1, 0)   // 서 (left)
 };
 
@@ -38,7 +38,7 @@ bool dfs(Vector2 current, Vector2 endPos, int depth = 0)
     int x = current.x;
     int y = current.y;
 
-    cout << string(depth * 2, ' ') << "Enter dfs index Pos: " << x << "," << y << "\n";
+    cout << string(depth * 2, ' ') << "Enter dfs index Pos: " << y << "," << x << "\n";
 
     // 범위 벗어남 체크
     if (x < 0 || x >= N || y < 0 || y >= N)
@@ -59,17 +59,19 @@ bool dfs(Vector2 current, Vector2 endPos, int depth = 0)
     // 네 방향 탐색 
     for (auto& dir : directions)
     {
-        Vector2 next(x + dir.x, y + dir.y);
+        Vector2 next(x + dir.x, y + dir.y); 
+        // 바로 여기서 재귀호출이 계속 발생함
         if (dfs(next, endPos, depth + 1))
         {
-			// 다음 위치로 이동 성공 
+			// 최종 목적지에 도달한 경우 이 블록으로 진입함 
             return true; 
         }
     }
 
 	// 백트래킹 : 위에 모든 조건이 아니란 뜻은 막다른 곳이고 이 곳에서 백트래킹이 발생, 백트래킹 발생하면 path에서 현재 위치 제거       
-    cout << string(depth * 2, ' ') << "Backtrack from Pos: " << x << "," << y << "\n"; 
+    cout << string(depth * 2, ' ') << "Backtrack from Pos: " << y << "," << x << "\n"; 
     path.pop_back();    
+
     return false;
 }
 
