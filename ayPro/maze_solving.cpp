@@ -2,14 +2,13 @@
 #include <vector>
 #include <string> // string(depth * 2, ' ') 사용을 위해 필요
 using namespace std;
-
 constexpr int N = 4;
 
 // 2D 벡터 구조체 정의
 struct Vector2
 {
     int x, y;  // x: 열(column), y: 행(row)
-    Vector2(int x = 0, int y = 0) : x(x), y(y) {}
+    Vector2(int _x = 0, int _y = 0) : x(_x), y(_y) {}
 };
 
 // 미로 정의 (1: 길, 0: 벽) 
@@ -21,7 +20,7 @@ int maze[N][N] =
     {0, 0, 0, 1}
 };
 
-bool visited[N][N]{};
+bool            visited[N][N]{};
 vector<Vector2> path{};
 
 // 남동북서로 처리하면 도착점 바로 찾아감, 남북동서로 처리하면 백트래킹 로직을 거치게 됨. 
@@ -97,7 +96,7 @@ void printMazeWithPath()
     }
 
     // 경로 좌표 출력
-    cout << "\n경로 인덱스 좌표:\n";
+    cout << "\n경로 인덱스 좌표:\n"; 
     for (auto& p : path)
         cout << "(" << p.x << ", " << p.y << ") ";
     cout << '\n';
